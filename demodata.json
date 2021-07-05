@@ -1,0 +1,71 @@
+{
+    "data" : {
+        "wall" : [
+            {
+                "id" : 0,
+                "image" : "https://images.jdmagicbox.com/quickquotes/images_main/b01mt1bddq-ajanta-wall-clock-d-s-157-metal-golden-colour-148914206-lp7kq.jpg",
+                "name" : "AJANTA Wall Clock",
+                "price" : "2599",
+                "color" : "Metal Golden Color",
+                "brand" : "AJANTA",
+                "size" : "21 inches",
+                "category" : "Wall"
+            },
+            {
+                "id" : 1,
+                "image" : "https://cdn.shopify.com/s/files/1/1192/6800/products/HAWC-1549_1_1200x.jpg?v=1583787235",
+                "name" : "Cheltin Wall Clock",
+                "price" : "1499",
+                "color" : "Grey Gold",
+                "brand" : "CHELTIN",
+                "size" : "23 inches",
+                "category" : "Wall"
+            },
+            {
+                "id" : 2,
+                "image" : "https://5.imimg.com/data5/SB/AD/DB/SELLER-62572330/decorative-wall-clock-tq-5151-mrp-750-500x500.jpg",
+                "name" : "Theo Quartz Plastic Sky Blue Wall Clock",
+                "price" : "1899",
+                "color" : "Sky Blue",
+                "brand" : "Theo Quartz",
+                "size" : "21 inches",
+                "category" : "Wall"
+            },
+            {
+                "id" : 3,
+                "image" : "https://images-na.ssl-images-amazon.com/images/I/41MVw5eN3qL.jpg",
+                "name" : "Craftter Premium Roman Sculpture Art Metal Wall Clock",
+                "price" : "3799",
+                "color" : "Copper",
+                "brand" : "Craftter",
+                "size" : "75 cm",
+                "category" : "Wall"
+            }
+        ]
+    },
+
+    "fastrack" : [
+        {
+            "id" : 10,
+            "image" : "https://staticimg.titan.co.in/Fastrack/Catalog/3254SM01_1.jpg?pView=listing",
+            "innerimages": ["https://staticimg.titan.co.in/Fastrack/Catalog/3254SM01_3.jpg?pView=pdp", 
+                            "https://staticimg.titan.co.in/Fastrack/Catalog/3254SM01_4.jpg?pView=pdp", 
+                            "https://staticimg.titan.co.in/Fastrack/Catalog/3254SM01_5.jpg?pView=pdp"],
+            "name" : "Stunner in Silver Dial & Metal Strap",
+            "price" : "1799",
+            "color" : "Silver",
+            "brand" : "Fastrack",
+            "size" : "",
+            "category" : "",
+            "genders" : "Male"
+        },
+        {
+            "id" : 11,
+            "image" : "",
+            "innerimages" : [],
+            "name" : ""
+        }
+    ]
+        
+        
+}

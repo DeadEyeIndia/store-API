@@ -1,40 +1,646 @@
 {
-    "data" : [
-        {
-            "id" : 0,
-            "image" : "https://images.jdmagicbox.com/quickquotes/images_main/b01mt1bddq-ajanta-wall-clock-d-s-157-metal-golden-colour-148914206-lp7kq.jpg",
-            "name" : "AJANTA Wall Clock",
-            "price" : "2599",
-            "color" : "Metal Golden Color",
-            "brand" : "AJANTA",
-            "size" : "21 inches"
+    "data" : {
+        "wall" : [
+            {
+                "id" : 0,
+                "image" : "https://images.jdmagicbox.com/quickquotes/images_main/b01mt1bddq-ajanta-wall-clock-d-s-157-metal-golden-colour-148914206-lp7kq.jpg",
+                "name" : "AJANTA Wall Clock",
+                "price" : "2599",
+                "color" : "Metal Golden Color",
+                "brand" : "AJANTA",
+                "size" : "21 inches"
+            },
+            {
+                "id" : 1,
+                "image" : "https://cdn.shopify.com/s/files/1/1192/6800/products/HAWC-1549_1_1200x.jpg?v=1583787235",
+                "name" : "Cheltin Wall Clock",
+                "price" : "1499",
+                "color" : "Grey Gold",
+                "brand" : "CHELTIN",
+                "size" : "23 inches"
+            },
+            {
+                "id" : 2,
+                "image" : "https://5.imimg.com/data5/SB/AD/DB/SELLER-62572330/decorative-wall-clock-tq-5151-mrp-750-500x500.jpg",
+                "name" : "Theo Quartz Plastic Sky Blue Wall Clock",
+                "price" : "1899",
+                "color" : "Sky Blue",
+                "brand" : "Theo Quartz",
+                "size" : "21 inches"
+            },
+            {
+                "id" : 3,
+                "image" : "https://images-na.ssl-images-amazon.com/images/I/41MVw5eN3qL.jpg",
+                "name" : "Craftter Premium Roman Sculpture Art Metal Wall Clock",
+                "price" : "3799",
+                "color" : "Copper",
+                "brand" : "Craftter",
+                "size" : "75 cm"
+            }
+        ],
+        
+        "brand" : {
+            "fastrack" : {
+                "male" : [
+                    {
+                        "id" : 100,
+                        "image" : "https://staticimg.titan.co.in/Fastrack/Catalog/3254SM01_1.jpg?pView=listing",
+                        "innerimages": ["https://staticimg.titan.co.in/Fastrack/Catalog/3254SM01_3.jpg?pView=pdp", 
+                                        "https://staticimg.titan.co.in/Fastrack/Catalog/3254SM01_4.jpg?pView=pdp", 
+                                        "https://staticimg.titan.co.in/Fastrack/Catalog/3254SM01_5.jpg?pView=pdp"],
+                        "name" : "Stunner in Silver Dial & Metal Strap",
+                        "price" : "1799",
+                        "color" : "Silver",
+                        "brand" : "Fastrack",
+                        "techspecs" : {
+                            "Case" : {
+                                "Material" : "Metal",
+                                "Shape" : "Round",
+                                "Thickness" : "7.65 mm",
+                                "Width" : "42.20 mm",
+                                "Length" : "49.10 mm"
+                                
+                            },
+                            "Water Resistance" : "5 ATM"
+                        }
+                    },
+                    {
+                        "id" : 101,
+                        "image" : "https://staticimg.titan.co.in/Fastrack/Catalog/3250NL02_1.jpg?pView=listing",
+                        "innerimages" : ["https://staticimg.titan.co.in/Fastrack/Catalog/3250NL02_3.jpg?pView=pdp",
+                                        "https://staticimg.titan.co.in/Fastrack/Catalog/3250NL02_4.jpg?pView=pdp",
+                                        "https://staticimg.titan.co.in/Fastrack/Catalog/3250NL02_5.jpg?pView=pdp"],
+                        "name" : "GAMIFY WATCH WITH BROWN DIAL",
+                        "price" : "2,395",
+                        "color" : "Brown",
+                        "brand" : "Fastrack",
+                        "techspecs" : {
+                            "Case" : {
+                                "Material" : "Metal",
+                                "Shape" : "Round",
+                                "Thickness" : "8.30 mm",
+                                "Width" : "44.00 mm",
+                                "Length" : "51.50 mm"
+                            },
+                            "Water Resistance" : "5 ATM"
+                        }
+                    },
+                    {
+                        "id" : 102,
+                        "image" : "https://staticimg.titan.co.in/Fastrack/Catalog/38042PP05_1.jpg?pView=listing",
+                        "innerimages" : ["https://staticimg.titan.co.in/Fastrack/Catalog/38042PP05_1.jpg?pView=pdp",
+                                        "https://staticimg.titan.co.in/Fastrack/Catalog/38042PP05_2.jpg?pView=pdp",
+                                        "https://staticimg.titan.co.in/Fastrack/Catalog/38042PP05_5.jpg?pView=pdp"],
+                        "name" : "BLUE DIAL DUAL TIME",
+                        "price" : "2,095",
+                        "color" : "Blue",
+                        "brand" : "Fastrack",
+                        "techspecs" : {
+                            "Case" : {
+                                "Material" : "Plastic",
+                                "Shape" : "Round",
+                                "Thickness" : "11.7 mm",
+                                "Width" : "49.5 mm",
+                                "Length" : "53 mm"
+                            },
+                            "Water Resistance" : "5 ATM"
+                        }
+                    },
+                    {
+                        "id" : 103,
+                        "image" : "https://staticimg.titan.co.in/Fastrack/Catalog/38015PP02J_1.jpg?impolicy=pqmed&imwidth=320",
+                        "innerimages" : ["https://staticimg.titan.co.in/Fastrack/Catalog/38015PP02J_1.jpg?pView=pdp",
+                                        "https://staticimg.titan.co.in/Fastrack/Catalog/38015PP02J_2.jpg?pView=pdp",
+                                        "https://staticimg.titan.co.in/Fastrack/Catalog/38015PP02J_3.jpg?pView=pdp"],
+                        "name" : "BLUE DIAL BLACK LEATHER STRAP WATCH",
+                        "price" : "1,600",
+                        "color" : "Black",
+                        "brand" : "Fastrack",
+                        "techspecs" : {
+                            "Case" : {
+                                "Material" : "Plastic",
+                                "Shape" : "Round",
+                                "Thickness" : "14 mm",
+                                "Width" : "50.40 mm",
+                                "Length" : "52.10 mm"
+                            },
+                            "Water Resistance" : "5 ATM"
+                        }
+                    }
+                ],
+                "female": [
+                    {
+                        "id" : 104,
+                        "image" : "https://staticimg.titan.co.in/Fastrack/Catalog/68017PP02_1.jpg?pView=listing",
+                        "innerimages" : ["https://staticimg.titan.co.in/Fastrack/Catalog/68017PP02_1.jpg?pView=pdp",
+                                         "https://staticimg.titan.co.in/Fastrack/Catalog/68017PP02_2.jpg?pView=pdp",
+                                         "https://staticimg.titan.co.in/Fastrack/Catalog/68017PP02_3.jpg?pView=pdp"],
+                        "name" : "SPARKLE WITH PINK WATCH",
+                        "price" : "850",
+                        "color" : "Pink",
+                        "brand" : "Fastrack",
+                        "techspecs" : {
+                            "Case" : {
+                                "Material" : "Plastic",
+                                "Shape" : "Round",
+                                "Thickness" : "10 mm",
+                                "Width" : "36.40 mm",
+                                "Length" : "41.10 mm"
+                            },
+                            "Water Resistance" : "5 ATM"
+                        }
+                    },
+                    {
+                        "id" : 105,
+                        "image" : "https://staticimg.titan.co.in/Fastrack/Catalog/9915PP57_1.jpg?impolicy=pqmed&imwidth=320",
+                        "innerimages" : ["https://staticimg.titan.co.in/Fastrack/Catalog/9915PP57_1.jpg?pView=pdp",
+                                        "https://staticimg.titan.co.in/Fastrack/Catalog/9915PP57_2.jpg?pView=pdp",
+                                        "https://staticimg.titan.co.in/Fastrack/Catalog/9915PP57_3.jpg?pView=pdp"],
+                        "name" : "PINK DIAL PINK SILICONE STRAP WATCH",
+                        "price" : "950",
+                        "color" : "Pink",
+                        "brand" : "Fastrack",
+                        "techspecs" : {
+                            "Case" : {
+                                "Material" : "Plastic",
+                                "Shape" : "Round",
+                                "Thickness" : "12.23 mm",
+                                "Width" : "43.70 mm",
+                                "Length" : "49.10 mm"
+                            },
+                            "Water Resistance" : "3 ATM"
+                        }
+                    }
+    
+                ]
+                
+            },
+            "fossil" : {
+                "male" : [
+                    {
+                        "id" : 200,
+                        "image" : "https://www.helioswatchstore.com/sites/default/files/FS5530_1_1.jpg",
+                        "innerimages": ["https://www.helioswatchstore.com/sites/default/files/FS5530_1_0.jpg",
+                            "https://www.helioswatchstore.com/sites/default/files/FS5530_2_0.jpg",
+                            "https://www.helioswatchstore.com/sites/default/files/FS5530_3_0.jpg"],
+                        "name" : "Belmar Round Anaog Black Dial Men's Watch",
+                        "price" : "3799",
+                        "color" : "Silver",
+                        "brand" : "Fossil",
+                        "techspecs" : {
+                            "Case" : {
+                                "Material" : "Metal",
+                                "Shape" : "Round",
+                                "Thickness" : "12.23 mm",
+                                "Width" : "43.70 mm",
+                                "Length" : "49.10 mm"
+                            },
+                            "Water Resistance" : "5 ATM"  
+                        }
+                        
+                    
+                    },
+                    {
+                        "id" : 201,
+                        "image" : "https://www.helioswatchstore.com/sites/default/files/CH2573IE-16.jpg",
+                        "innerimages" : ["https://www.helioswatchstore.com/sites/default/files/FS5530_1_0.jpg",
+                            "https://www.helioswatchstore.com/sites/default/files/FS5530_2_0.jpg",
+                            "https://www.helioswatchstore.com/sites/default/files/FS5530_3_0.jpg"],
+                        "name" : "Dexter Round Analog Black Dial Men's Watch",
+                        "price" : "5,395",
+                        "color" : "Black",
+                        "brand" : "Fossil",
+                        "techspecs" : {
+                            "Case" : {
+                                "Material" : "Metal",
+                                "Shape" : "Round",
+                                "Thickness" : "12.23 mm",
+                                "Width" : "43.70 mm",
+                                "Length" : "49.10 mm"
+                            },
+                            "Water Resistance" : "5 ATM"
+                        }
+                    },
+                    {
+                        "id" : 202,
+                        "image" : "https://www.helioswatchstore.com/sites/default/files/FTW7007_1_0.jpg",
+                        "innerimages" : ["https://www.helioswatchstore.com/sites/default/files/FTW7007_1.jpg",
+                            "https://www.helioswatchstore.com/sites/default/files/FTW7007_2.jpg",
+                            "https://www.helioswatchstore.com/sites/default/files/FTW7007_4.jpg"],
+                        "name" : "Collider Round Hybrid Black Dial Men's Watch",
+                        "price" : "5,095",
+                        "color" : "Brown",
+                        "brand" : "Fossil Q",
+                        "techspecs" : {
+                            "Case" : {
+                                "Material" : "Metal",
+                                "Shape" : "Round",
+                                "Thickness" : "12.23 mm",
+                                "Width" : "43.70 mm",
+                                "Length" : "49.10 mm"
+                            },
+                            "Water Resistance" : "5 ATM"
+                        }
+                    },
+                    {
+                        "id" : 203,
+                        "image" : "https://www.helioswatchstore.com/sites/default/files/FTW7008_1_0.jpg",
+                        "innerimages" : ["https://www.helioswatchstore.com/sites/default/files/FTW7008_1.jpg",
+                                        "https://www.helioswatchstore.com/sites/default/files/FTW7008_2.jpg",
+                                        "https://www.helioswatchstore.com/sites/default/files/FTW7008_3.jpg"],
+                        "name" : "Collider Round Hybrid Black Dial Men's Watch'",
+                        "price" : "6,600",
+                        "color" : "Brown",
+                        "brand" : "Fossil Q",
+                        "techspecs" : {
+                            "Case" : {
+                                "Material" : "Metal",
+                                "Shape" : "Round",
+                                "Thickness" : "12.23 mm",
+                                "Width" : "43.70 mm",
+                                "Length" : "49.10 mm"
+                            },
+                            "Water Resistance" : "5 ATM"
+                        }
+                    }
+                ],
+                "female": [
+                    {
+                        "id" : 204,
+                        "image" : "https://www.helioswatchstore.com/sites/default/files/FTW7012_1_0.jpg",
+                        "innerimages" : ["https://www.helioswatchstore.com/sites/default/files/FTW7012_1.jpg",
+                                         "https://www.helioswatchstore.com/sites/default/files/FTW7012_2.jpg",
+                                         "https://www.helioswatchstore.com/sites/default/files/FTW7012_4.jpg"],
+                        "name" : "Charter Round Hybrid White Dial Watch",
+                        "price" : "3,550",
+                        "color" : "Rose Gold",
+                        "brand" : "Fossil Q",
+                        "techspecs" : {
+                            "Case" : {
+                                "Material" : "Metal",
+                                "Shape" : "Round",
+                                "Thickness" : "12.23 mm",
+                                "Width" : "43.70 mm",
+                                "Length" : "49.10 mm"
+                            },
+                            "Water Resistance" : "5 ATM"
+                        }
+                    },
+                    {
+                        "id" : 205,
+                        "image" : "https://www.helioswatchstore.com/sites/default/files/FTW7014_1_0.jpg",
+                        "innerimages" : ["https://www.helioswatchstore.com/sites/default/files/FTW7014_1.jpg",
+                                        "https://www.helioswatchstore.com/sites/default/files/FTW7014_2.jpg",
+                                        "https://www.helioswatchstore.com/sites/default/files/FTW7014_4.jpg"],
+                        "name" : "Charter Round Hybrid White Dial Watch",
+                        "price" : "5,450",
+                        "color" : "Rose Gold",
+                        "brand" : "Fossil Q",
+                        "techspecs" : {
+                            "Case" : {
+                                "Material" : "Metal",
+                                "Shape" : "Round",
+                                "Thickness" : "12.23 mm",
+                                "Width" : "43.70 mm",
+                                "Length" : "49.10 mm"
+                            },
+                            "Water Resistance" : "3 ATM"
+                        }
+                    }
+    
+                ]
+                
+            },
+            "titan" : {
+                "male" : [
+                    {
+                        "id" : 300,
+                        "image" : "https://staticimg.titan.co.in/Titan/Catalog/1847KM01_1.jpg?impolicy=pqmed&imwidth=320",
+                        "innerimages": ["https://staticimg.titan.co.in/Titan/Catalog/1847KM01_1.jpg?pView=pdp",
+                            "https://staticimg.titan.co.in/Titan/Catalog/1847KM01_2.jpg?pView=pdp",
+                            "https://staticimg.titan.co.in/Titan/Catalog/1847KM01_5.jpg?pView=pdp"],
+                        "name" : "Grandmaster From Titan",
+                        "price" : "8999",
+                        "color" : "Gold",
+                        "brand" : "Titan",
+                        "techspecs" : {
+                            "Case" : {
+                                "Material" : "Metal",
+                                "Shape" : "Round",
+                                "Thickness" : "12.23 mm",
+                                "Width" : "43.70 mm",
+                                "Length" : "49.10 mm"
+                            },
+                            "Water Resistance" : "5 ATM"  
+                        }
+                        
+                    
+                    },
+                    {
+                        "id" : 301,
+                        "image" : "https://staticimg.titan.co.in/Titan/Catalog/1828KM02_1.jpg?impolicy=pqmed&imwidth=320",
+                        "innerimages" : ["https://staticimg.titan.co.in/Titan/Catalog/1828KM02_4.jpg?pView=pdp",
+                            "https://staticimg.titan.co.in/Titan/Catalog/1828KM02_5.jpg?pView=pdp",
+                            "https://staticimg.titan.co.in/Titan/Catalog/1828KM02_6.jpg?pView=pdp"],
+                        "name" : "Grandmaster From Titan",
+                        "price" : "10,395",
+                        "color" : "Silver",
+                        "brand" : "Titan",
+                        "techspecs" : {
+                            "Case" : {
+                                "Material" : "Metal",
+                                "Shape" : "Round",
+                                "Thickness" : "12.23 mm",
+                                "Width" : "43.70 mm",
+                                "Length" : "49.10 mm"
+                            },
+                            "Water Resistance" : "5 ATM"
+                        }
+                    },
+                    {
+                        "id" : 302,
+                        "image" : "https://staticimg.titan.co.in/Titan/Catalog/1847KM02_1.jpg?pView=listing",
+                        "innerimages" : ["https://staticimg.titan.co.in/Titan/Catalog/1847KM02_1.jpg?pView=pdp",
+                            "https://staticimg.titan.co.in/Titan/Catalog/1847KM02_3.jpg?pView=pdp",
+                            "https://staticimg.titan.co.in/Titan/Catalog/1847KM02_4.jpg?pView=pdp"],
+                        "name" : "Grandmaster from Titan",
+                        "price" : "11,095",
+                        "color" : "Black",
+                        "brand" : "Titan",
+                        "techspecs" : {
+                            "Case" : {
+                                "Material" : "Metal",
+                                "Shape" : "Round",
+                                "Thickness" : "12.23 mm",
+                                "Width" : "43.70 mm",
+                                "Length" : "49.10 mm"
+                            },
+                            "Water Resistance" : "5 ATM"
+                        }
+                    },
+                    {
+                        "id" : 303,
+                        "image" : "https://staticimg.titan.co.in/Titan/Catalog/1848KM01_1.jpg?pView=listing",
+                        "innerimages" : ["https://staticimg.titan.co.in/Titan/Catalog/1848KM01_2.jpg?pView=pdp",
+                                        "https://staticimg.titan.co.in/Titan/Catalog/1848KM01_3.jpg?pView=pdp",
+                                        "https://staticimg.titan.co.in/Titan/Catalog/1848KM01_4.jpg?pView=pdp"],
+                        "name" : "Grandmaster from Titan",
+                        "price" : "15,600",
+                        "color" : "Silver",
+                        "brand" : "Titan",
+                        "techspecs" : {
+                            "Case" : {
+                                "Material" : "Metal",
+                                "Shape" : "Round",
+                                "Thickness" : "12.23 mm",
+                                "Width" : "43.70 mm",
+                                "Length" : "49.10 mm"
+                            },
+                            "Water Resistance" : "5 ATM"
+                        }
+                    }
+                ],
+                "female": [
+                    {
+                        "id" : 304,
+                        "image" : "https://staticimg.titan.co.in/Titan/Catalog/5578DM05_1.jpg?pView=listing",
+                        "innerimages" : ["https://staticimg.titan.co.in/Titan/Catalog/5578DM05_1.jpg?pView=listing",
+                                         "https://staticimg.titan.co.in/Titan/Catalog/5578DM05_2.jpg?pView=pdp",
+                                         "https://staticimg.titan.co.in/Titan/Catalog/5578DM05_3.jpg?pView=pdp"],
+                        "name" : "Ashvi by Nebula - 18 Karat Solid Gold Watch",
+                        "price" : "1,13,550",
+                        "color" : "Rose Gold",
+                        "brand" : "Titan",
+                        "techspecs" : {
+                            "Case" : {
+                                "Material" : "Metal",
+                                "Shape" : "Round",
+                                "Thickness" : "3.85 mm",
+                                "Width" : "26.20 mm",
+                                "Length" : "31.85 mm"
+                            },
+                            "Water Resistance" : "3 ATM"
+                        }
+                    },
+                    {
+                        "id" : 305,
+                        "image" : "https://staticimg.titan.co.in/Titan/Catalog/95136QM01_1.jpg?pView=listing",
+                        "innerimages" : ["https://staticimg.titan.co.in/Titan/Catalog/95136QM01_2.jpg?pView=pdp",
+                                        "https://staticimg.titan.co.in/Titan/Catalog/95136QM01_5.jpg?pView=pdp",
+                                        "https://staticimg.titan.co.in/Titan/Catalog/95136QM01_6.jpg?pView=pdp"],
+                        "name" : "Aller from Raga Moments of Joy",
+                        "price" : "25,450",
+                        "color" : "Green",
+                        "brand" : "Titan",
+                        "techspecs" : {
+                            "Case" : {
+                                "Material" : "Metal",
+                                "Shape" : "Round",
+                                "Thickness" : "7.23 mm",
+                                "Width" : "24.70 mm",
+                                "Length" : "31.10 mm"
+                            },
+                            "Water Resistance" : "3 ATM"
+                        }
+                    }
+                ]
+            }
         },
-        {
-            "id" : 1,
-            "image" : "https://cdn.shopify.com/s/files/1/1192/6800/products/HAWC-1549_1_1200x.jpg?v=1583787235",
-            "name" : "Cheltin Wall Clock",
-            "price" : "1499",
-            "color" : "Grey Gold",
-            "brand" : "CHELTIN",
-            "size" : "23 inches"
-        },
-        {
-            "id" : 2,
-            "image" : "https://5.imimg.com/data5/SB/AD/DB/SELLER-62572330/decorative-wall-clock-tq-5151-mrp-750-500x500.jpg",
-            "name" : "Theo Quartz Plastic Sky Blue Wall Clock",
-            "price" : "1899",
-            "color" : "Sky Blue",
-            "brand" : "Theo Quartz",
-            "size" : "21 inches"
-        },
-        {
-            "id" : 3,
-            "image" : "https://images-na.ssl-images-amazon.com/images/I/41MVw5eN3qL.jpg",
-            "name" : "Craftter Premium Roman Sculpture Art Metal Wall Clock",
-            "price" : "3799",
-            "color" : "Copper",
-            "brand" : "Craftter",
-            "size" : "75 cm"
-        }
-    ]
+
+        "tommy" : [
+            {
+                "id" : "400",
+                "image": "https://staticimg.titan.co.in/Helios/Catalog/TH1791575_1.jpg?pView=listing",
+                "name" : "Tommy Hilfiger Analog Watch for Men",
+                "price" : "8,200",
+                "color" : "Silver",
+                "brand" : "Helios",
+                "techspecs" : {
+                    "case" : {
+                        "material" : "Stainless Steel",
+                        "shape" : "Round"
+                    },
+                    "Water Resistance" : "5 ATM"
+                }
+            },
+            {
+                "id" : "401",
+                "image": "https://staticimg.titan.co.in/Helios/Catalog/TH1782024_1.jpg?pView=listing",
+                "name" : "Tommy Hilfiger Analog Watch for Women",
+                "price" : "8,795",
+                "color" : "Rose Gold",
+                "brand" : "Helios",
+                "techspecs" : {
+                    "case" : {
+                        "material" : "Stainless Steel",
+                        "shape" : "Round"
+                    },
+                    "Water Resistance" : "3 ATM"
+                }
+            },
+            {
+                "id" : "402",
+                "image": "https://staticimg.titan.co.in/Helios/Catalog/TH1781946_1.jpg?pView=listing",
+                "name" : "Tommy Hilfiger Analog Watch for Women",
+                "price" : "6,200",
+                "color" : "Grey",
+                "brand" : "Helios",
+                "techspecs" : {
+                    "case" : {
+                        "material" : "Stainless Steel",
+                        "shape" : "Round"
+                    },
+                    "Water Resistance" : "3 ATM"
+                }
+            },
+            {
+                "id" : "403",
+                "image": "https://staticimg.titan.co.in/Helios/Catalog/TH1791580_1.jpg?pView=listing",
+                "name" : "Tommy Hilfiger Analog Watch for Men",
+                "price" : "10,200",
+                "color" : "Black",
+                "brand" : "Helios",
+                "techspecs" : {
+                    "case" : {
+                        "material" : "Stainless Steel",
+                        "shape" : "Round"
+                    },
+                    "Water Resistance" : "5 ATM"
+                }
+            },
+            {
+                "id" : "404",
+                "image": "https://staticimg.titan.co.in/Helios/Catalog/TH1791516_1.jpg?pView=listing",
+                "name" : "Tommy Hilfiger Analog Watch for Men",
+                "price" : "7,990",
+                "color" : "Brown",
+                "brand" : "Helios",
+                "techspecs" : {
+                    "case" : {
+                        "material" : "Stainless Steel",
+                        "shape" : "Round"
+                    },
+                    "Water Resistance" : "5 ATM"
+                }
+            },
+            {
+                "id" : "405",
+                "image": "https://staticimg.titan.co.in/Helios/Catalog/TH1791578_1.jpg?pView=listing",
+                "name" : "Tommy Hilfiger Analog Watch for Men",
+                "price" : "7,190",
+                "color" : "Navy Blue",
+                "brand" : "Helios",
+                "techspecs" : {
+                    "case" : {
+                        "material" : "Stainless Steel",
+                        "shape" : "Round"
+                    },
+                    "Water Resistance" : "5 ATM"
+                }
+            }
+        ],
+        
+        "apple" : [
+            {
+                "id" : "500",
+                "image" : "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MTPM2_VW_PF+watch-44-alum-gold-nc-6s_VW_PF_WF_CO_GEO_IN?wid=1400&hei=1400&trim=1,0&fmt=p-jpg&qlt=95&.v=1599019781000,1601922731000",
+                "innerimages" : ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/44-alum-blue-sport-deepnavy-6s-cell?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1599811391000",
+                "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MTPK2_VW_34FR+watch-44-alum-silver-nc-6s_VW_34FR_WF_CO_GEO_IN?wid=750&hei=712&trim=1,0&fmt=p-jpg&qlt=95&.v=1566419578393,1601923080000",
+                "https://images-na.ssl-images-amazon.com/images/I/81WqPA2ealL._SL1500_.jpg"],
+                "name" : "Apple Watch Series 6",
+                "price" : "40900",
+                "color" : ["Red", "White","Navy Short Band", "Pink Sand"],
+                "brand" : "Apple",
+                "techspecs" : {
+                    "display" : "Retina Display",
+                    "network" : "GPS + Cellular⁴",
+                    "features" : [
+                        "Blood Oxygen app",
+                        "High and low heart rate notifications",
+                        "Water resistant 50 meters"
+                    ],
+                    "size" : "44mm or 40mm case size"
+                }
+            },
+            {
+                "id" : "501",
+                "image" : "https://i.gadgets360cdn.com/products/wearables/large/1551968931_832_apple_watch-series-3-gps-smartwatch.jpg",
+                "innerimages" : ["https://i.gadgets360cdn.com/products/wearables/large/1551968931_832_apple_watch-series-3-gps-smartwatch.jpg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgCMWBxhote_X9DhoJU3x1909l4QO2i2BZ5JGwHw19LKMJj6UGyZoZddlYwRVcSwLGyk8&usqp=CAU",
+                "https://www.apple.com/newsroom/images/product/watch/standard/watch_series_3_incoming_two-wrap_big.gif.large.gif"],
+                "name" : "Apple Watch SE",
+                "price" : "29900",
+                "color" : ["Red", "White","Navy Short Band", "Pink Sand"],
+                "brand" : "Apple",
+                "techspecs" : {
+                    "display" : "Retina Display",
+                    "network" : "GPS",
+                    "features" : [
+                        "High and low heart rate notifications",
+                        "Water resistant 50 meters"
+                    ],
+                    "size" : "44mm or 40mm case size"
+                }
+            },
+            {
+                "id" : "502",
+                "image" : "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/44-alum-spacegray-sport-black-se-cell?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1599811804000",
+                "innerimages" : ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MTPK2_VW_34FR+watch-44-alum-silver-nc-se_VW_34FR_WF_CO?wid=750&hei=712&trim=1,0&fmt=p-jpg&qlt=95&.v=1566419578393,1623883759000",
+                "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/44-alum-silver-sport-platinum-nike-se-cell?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1599811641000",
+                "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/44-alum-gold-sport-pinksand-se-nc?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1599811509000"],
+                "name" : "Apple Watch Series 3",
+                "price" : "20900",
+                "color" : ["Black","Pure Platinum/Black", "Pink Sand"],
+                "brand" : "Apple",
+                "techspecs" : {
+                    "display" : "Retina Display",
+                    "network" : "GPS",
+                    "features" : [
+                        "High and low heart rate notifications",
+                        "Water resistant 50 meters"
+                    ],
+                    "size" : "42mm or 38mm case size"
+                }
+            }
+        ],
+
+        "applestrip" : [
+            {
+                "id" : 503,
+                "image" : "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/grid-braided-loop-pride-s6?wid=270&hei=331&fmt=jpeg&qlt=95&.v=1619713764000",
+                "name" : "Pride Edition Braided Solo Loop",
+                "price" : "7900"
+            },
+            {
+                "id" : 504,
+                "image" : "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/grid-braided-loop-electric-orange-s6?wid=270&hei=331&fmt=jpeg&qlt=95&.v=1617491498000",
+                "name" : "Electric Orange Braided Solo Loop",
+                "price" : "7900"
+            },
+            {
+                "id" : 505,
+                "image" : "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/grid-braided-loop-pistachio-s6?wid=270&hei=331&fmt=jpeg&qlt=95&.v=1617491499000",
+                "name" : "Pistachio Braided Solo Loop",
+                "price" : "7900"
+            },
+            {
+                "id" : 506,
+                "image" : "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/grid-braided-loop-atlantic-s6?wid=270&hei=331&fmt=jpeg&qlt=95&.v=1599096924000",
+                "name" : "Atlantic Blue Braided Solo Loop",
+                "price" : "7900"
+            },
+            {
+                "id" : 507,
+                "image" : "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/grid-braided-loop-inverness-s6?wid=270&hei=331&fmt=jpeg&qlt=95&.v=1599096920000",
+                "name" : "Inverness Green Braided Solo Loop",
+                "price" : "7900"
+            },
+            {
+                "id" : 508,
+                "image" : "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/grid-braided-loop-charcoal-s6?wid=270&hei=331&fmt=jpeg&qlt=95&.v=1599096920000",
+                "name" : "Charcoal Braided Solo Loop",
+                "price" : "7900"
+            }
+        ]
+    }      
 }
