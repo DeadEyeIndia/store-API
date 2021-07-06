@@ -641,6 +641,64 @@
                 "name" : "Charcoal Braided Solo Loop",
                 "price" : "7900"
             }
+        ],
+
+        "danielwellington" : [
+            {
+                "id" : 601,
+                "image" : "https://images-na.ssl-images-amazon.com/images/I/71mj2ADG%2B0L._UX466_.jpg",
+                "innerimages" : ["https://images-na.ssl-images-amazon.com/images/I/71mj2ADG%2B0L._UX466_.jpg", 
+                    "https://images-na.ssl-images-amazon.com/images/I/81G1tPcxGxL._UX679_.jpg",
+                    "https://images-na.ssl-images-amazon.com/images/I/81-1EWitQiL._UX679_.jpg"],
+                    "name" : "Daniel Wellington Classic Petite Analogue Women's Watch",
+                    "price" : "11,499",
+                    "color" : ["Rose Gold, Black"],
+                    "brand" : "Daniel Wellington"
+            },
+            {
+                "id" : 602,
+                "image" : "https://images-na.ssl-images-amazon.com/images/I/61GI4yvuugS._UY550_.jpg",
+                "innerimages" : ["https://images-na.ssl-images-amazon.com/images/I/61GI4yvuugS._UY550_.jpg", 
+                    "https://images-na.ssl-images-amazon.com/images/I/71ev891RdvS._UY445_.jpg",
+                    "https://images-na.ssl-images-amazon.com/images/I/61ciVa6leIS._UY445_.jpg"],
+                    "name" : "Daniel Wellington Quadro 20X26 mm Rose Gold Green Watch for Women",
+                    "price" : "13,499",
+                    "color" : "Rose Gold Green",
+                    "brand" : "Daniel Wellington"
+            },
+            {
+                "id" : 603,
+                "image" : "https://images-na.ssl-images-amazon.com/images/I/71tkhJXixEL._UX569_.jpg",
+                "innerimages" : ["https://images-na.ssl-images-amazon.com/images/I/71tkhJXixEL._UX569_.jpg", 
+                    "https://images-na.ssl-images-amazon.com/images/I/81zyokLxjgL._UX679_.jpg",
+                    "https://images-na.ssl-images-amazon.com/images/I/61qBPjhlgGL._UY606_.jpg"],
+                    "name" : "Daniel Wellington Analogue Men's Watch",
+                    "price" : "14,499",
+                    "color" : "Gold",
+                    "brand" : "Daniel Wellington"
+            },
+            {
+                "id" : 604,
+                "image" : "https://images-na.ssl-images-amazon.com/images/I/61MV-Z11GWL._UY741_.jpg",
+                "innerimages" : ["https://images-na.ssl-images-amazon.com/images/I/61MV-Z11GWL._UY741_.jpg", 
+                    "https://images-na.ssl-images-amazon.com/images/I/41FnV-9vxlL.jpg",
+                    "https://images-na.ssl-images-amazon.com/images/I/61EXrf9XsML._UY606_.jpg"],
+                    "name" : "Daniel Wellington Analogue Men's Watch",
+                    "price" : "17,499",
+                    "color" : "Silver",
+                    "brand" : "Daniel Wellington"
+            },
+            {
+                "id" : 605,
+                "image" : "https://images-na.ssl-images-amazon.com/images/I/518Pv8HkNPL._UX569_.jpg",
+                "innerimages" : ["https://images-na.ssl-images-amazon.com/images/I/518Pv8HkNPL._UX569_.jpg", 
+                    "https://images-na.ssl-images-amazon.com/images/I/61J%2B4F2EfeL._UX466_.jpg",
+                    "https://images-na.ssl-images-amazon.com/images/I/61zgScsc4jL._UX466_.jpg"],
+                    "name" : "Daniel Wellington Analogue White Dial Women's Watch (White Dial Pink Colored Strap)",
+                    "price" : "12,499",
+                    "color" : "Rose Gold",
+                    "brand" : "Daniel Wellington"
+            }
         ]
     }      
 }
