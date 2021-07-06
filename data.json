@@ -449,7 +449,7 @@
 
         "tommy" : [
             {
-                "id" : "400",
+                "id" : 400,
                 "image": "https://staticimg.titan.co.in/Helios/Catalog/TH1791575_1.jpg?pView=listing",
                 "name" : "Tommy Hilfiger Analog Watch for Men",
                 "price" : "8,200",
@@ -464,7 +464,7 @@
                 }
             },
             {
-                "id" : "401",
+                "id" : 401,
                 "image": "https://staticimg.titan.co.in/Helios/Catalog/TH1782024_1.jpg?pView=listing",
                 "name" : "Tommy Hilfiger Analog Watch for Women",
                 "price" : "8,795",
@@ -479,7 +479,7 @@
                 }
             },
             {
-                "id" : "402",
+                "id" : 402,
                 "image": "https://staticimg.titan.co.in/Helios/Catalog/TH1781946_1.jpg?pView=listing",
                 "name" : "Tommy Hilfiger Analog Watch for Women",
                 "price" : "6,200",
@@ -494,7 +494,7 @@
                 }
             },
             {
-                "id" : "403",
+                "id" : 403,
                 "image": "https://staticimg.titan.co.in/Helios/Catalog/TH1791580_1.jpg?pView=listing",
                 "name" : "Tommy Hilfiger Analog Watch for Men",
                 "price" : "10,200",
@@ -509,7 +509,7 @@
                 }
             },
             {
-                "id" : "404",
+                "id" : 404,
                 "image": "https://staticimg.titan.co.in/Helios/Catalog/TH1791516_1.jpg?pView=listing",
                 "name" : "Tommy Hilfiger Analog Watch for Men",
                 "price" : "7,990",
@@ -524,7 +524,7 @@
                 }
             },
             {
-                "id" : "405",
+                "id" : 405,
                 "image": "https://staticimg.titan.co.in/Helios/Catalog/TH1791578_1.jpg?pView=listing",
                 "name" : "Tommy Hilfiger Analog Watch for Men",
                 "price" : "7,190",
@@ -542,7 +542,7 @@
         
         "apple" : [
             {
-                "id" : "500",
+                "id" : 500,
                 "image" : "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MTPM2_VW_PF+watch-44-alum-gold-nc-6s_VW_PF_WF_CO_GEO_IN?wid=1400&hei=1400&trim=1,0&fmt=p-jpg&qlt=95&.v=1599019781000,1601922731000",
                 "innerimages" : ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/44-alum-blue-sport-deepnavy-6s-cell?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1599811391000",
                 "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MTPK2_VW_34FR+watch-44-alum-silver-nc-6s_VW_34FR_WF_CO_GEO_IN?wid=750&hei=712&trim=1,0&fmt=p-jpg&qlt=95&.v=1566419578393,1601923080000",
@@ -563,7 +563,7 @@
                 }
             },
             {
-                "id" : "501",
+                "id" : 501,
                 "image" : "https://i.gadgets360cdn.com/products/wearables/large/1551968931_832_apple_watch-series-3-gps-smartwatch.jpg",
                 "innerimages" : ["https://i.gadgets360cdn.com/products/wearables/large/1551968931_832_apple_watch-series-3-gps-smartwatch.jpg",
                 "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgCMWBxhote_X9DhoJU3x1909l4QO2i2BZ5JGwHw19LKMJj6UGyZoZddlYwRVcSwLGyk8&usqp=CAU",
@@ -583,7 +583,7 @@
                 }
             },
             {
-                "id" : "502",
+                "id" : 502,
                 "image" : "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/44-alum-spacegray-sport-black-se-cell?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1599811804000",
                 "innerimages" : ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MTPK2_VW_34FR+watch-44-alum-silver-nc-se_VW_34FR_WF_CO?wid=750&hei=712&trim=1,0&fmt=p-jpg&qlt=95&.v=1566419578393,1623883759000",
                 "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/44-alum-silver-sport-platinum-nike-se-cell?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1599811641000",
