@@ -1,3 +1,3 @@
 # store-API
 Online Watch Store API - Data.
-This repositry gives an Online Watch Store API
+This repository gives an Online Watch Store API
